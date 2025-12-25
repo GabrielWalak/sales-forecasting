@@ -1,0 +1,22 @@
+@"
+# Ignoruj pliki CSV w dowolnym folderze data (np. w ConsoleApp1/data)
+**/data/*.csv
+**/data/preprocessed/
+
+# Ignoruj wyniki budowania (bin i obj wszêdzie)
+**/bin/
+**/obj/
+*.user
+*.suo
+
+# Modele ML.NET
+**/models/*.zip
+**/models/*.json
+
+# Logi
+**/logs/
+*.log
+
+# Visual Studio
+.vs/
+"@ | Set-Content .gitignore
